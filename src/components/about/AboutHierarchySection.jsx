@@ -58,11 +58,21 @@ const committeeStructure = [
   },
   {
     category: "VFX",
-    icon: "🎨",
+    icon: "🎥",
     colorScheme: "cyan",
     positions: [
       {
         description: "Imagination in motion defines the VFX Team. Through videos, edits, and animations, they preserve moments and tell stories in ways that inspire. Their visuals bring events to life, making every initiative more engaging, memorable, and impactful for the community.",
+      },
+    ],
+  },
+  {
+    category: "Media",
+    icon: "📷",
+    colorScheme: "cyan",
+    positions: [
+      {
+        description: "The eyes and lens of our chapter, the Media Team captures the moments that define our journey through photography. From events and workshops to celebrations and milestones, they preserve every memory, ensuring our story is documented and remembered for years to come.",
       },
     ],
   },
