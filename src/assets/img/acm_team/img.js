@@ -50,12 +50,12 @@ import vrishali_sahay from "./office_bearers/vrishali_sahay.webp";
 // added office bearers images
 import gg from "./office_bearers/added/gg.png";
 import Amaan_Rahman from "./office_bearers/added/Amaan_Rahman.jpeg";
-import Akshita_Gupta from "./office_bearers/added/Akshita_Gupta.jpeg";
+import Akshita_Gupta from "./office_bearers/added/Akshita.PNG";
 import Sonavdeep_Sharma from "./office_bearers/added/Sonavdeep_Sharma.jpg";
 import Prarthana_Baisoya from "./office_bearers/added/Prarthana_Baisoya.jpg";
 import Vibhuti_Negi from "./office_bearers/added/Vibhuti_Negi.jpg";
 import Sanvi_Mukherjee from "./office_bearers/added/Sanvi_Mukherjee.jpg";
-import Ved_Mahajan from "./office_bearers/added/Ved_Mahajan.jpg";
+import Ved_Mahajan from "./office_bearers/added/Ved.png";
 import Priyanshi_Rana from "./office_bearers/added/Priyanshi_Rana.png";
 import Ruhani_Khurana from "./office_bearers/added/Ruhani_Khurana.jpeg";
 import Ronit_Batra from "./office_bearers/added/Ronit_Batra.jpeg";
