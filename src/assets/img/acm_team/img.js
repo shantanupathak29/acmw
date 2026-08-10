@@ -61,7 +61,7 @@ import Ruhani_Khurana from "./office_bearers/added/Ruhani_Khurana.jpeg";
 import Ronit_Batra from "./office_bearers/added/Ronit_Batra.jpeg";
 import Sakshi_Kumari from "./office_bearers/added/Sakshi_Kumari.png";
 import Shrimann_Bansal from "./office_bearers/added/Shrimann_Bansal.JPG";
-import Aastha_Dhavan from "./office_bearers/added/Aastha_Dhavan.jpeg";
+import Aastha_Dhavan from "./office_bearers/added/Aastha.png";
 import Madhav_Tiwari from "./office_bearers/added/Madhav_Tiwari.jpg";
 import Grikzhana_Daulagupu from "./office_bearers/added/Grikzhana_Daulagupu.jpg";
 

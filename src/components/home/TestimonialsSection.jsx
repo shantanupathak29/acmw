@@ -8,6 +8,11 @@ import sachiImage from '../../assets/img/acm_team/executives/sachi_choudhary.web
 import devanshiImage from '../../assets/img/acm_team/executives/devanshi_raghav.jpg';
 import kavyaImage from '../../assets/img/acm_team/boe/kavya_chugh.webp';
 import stutiImage from '../../assets/img/acm_team/executives/stuti_jain.webp';
+import navneet_kumar from '../../assets/img/acm_team/office_bearers/navneet_kumar.webp';
+import Jiya_Singh from '../../assets/img/acm_team/executives/added/Jiya_Singh.jpg';
+import Niharika_Chand from '../../assets/img/acm_team/executives/added/Niharika_Chand.jpg';
+import Mishthi_Nagpal from '../../assets/img/acm_team/executives/added/Mishthi_Nagpal.jpg';
+import Devaansh_Kushwaha from '../../assets/img/acm_team/executives/added/Devaansh_Kushwaha.jpg';
 
 // Simple floating animation component
 const FloatingElement = ({ delay = 0, size = 'small', color = 'purple' }) => {
@@ -200,6 +205,41 @@ const testimonials = [
     message: 'I have been associated with the chapter for over four years now, witnessing its incredible evolution firsthand. My journey from core committee member to Treasurer and Chairperson has been transformative. UPES ACM & ACM-W has shaped my technical skills and leadership capabilities. It\'s truly a family that empowers every member to reach their potential.',
     image: devanshiImage,
     colorScheme: 'rose'
+  },
+  {
+    name: 'Navneet Kumar',
+    role: 'Web Master, UPES ACM-W',
+    message: 'When I first joined UPES ACM & ACM-W, I was eager to learn and explore new technologies. The chapter helped me strengthen my technical skills through continuous learning and collaboration. As I progressed, I had the opportunity to serve as the Technical Head, contributing to the chapter\'s digital initiatives. It has been a truly rewarding journey of learning and growth.',
+    image: navneet_kumar,
+    colorScheme: 'violet'
+  },
+  {
+    name: 'Jiya Singh',
+    role: 'Treasurer, UPES ACM-W',
+    message:'When I first became a part of UPES ACM & ACM-W, initiatives like Spy C and Code Anytime strengthened my coding skills and boosted my confidence. They inspired me to stay connected with the chapter and contribute beyond just learning. Looking back, I\'m grateful to be part of a community that has shaped my skills and helped me grow both personally and professionally.',
+    image: Jiya_Singh,
+    colorScheme: 'cyan'
+  },
+  {
+    name: 'Niharika Chand',
+    role: 'Vice-Chairperson, UPES ACM-W',
+    message: 'When I joined UPES ACM & ACM-W, initiatives like Spy C and Code Anytime helped me strengthen my coding skills and built my confidence. As I continued my journey, I got the opportunity to contribute as an Events Head, working alongside an incredible team to create meaningful experiences for others. It\'s been a truly rewarding journey of learning, growth, and giving back to the community.',
+    image: Niharika_Chand,
+    colorScheme: 'rose'
+  },
+  {
+    name: 'Mishthi Nagpal',
+    role: 'Secretary, UPES ACM-W',
+    message: 'When I joined UPES ACM & ACM-W, I was excited to learn, collaborate, and be a part of the chapter\'s journey. Over time, I got the opportunity to take on greater responsibilities, work closely with an amazing team, and contribute to the successful execution of various initiatives. Every experience helped me grow both personally and professionally, making this journey truly memorable.',
+    image: Mishthi_Nagpal,
+    colorScheme: 'violet'
+  },
+  {
+    name: 'Devaansh Kushwaha',
+    role: 'Joint-Secretary, UPES ACM-W',
+    message: 'When I joined UPES ACM & ACM-W, I was excited to learn and contribute to the chapter. As my journey progressed, I had the opportunity to take on greater responsibilities, coordinate with different teams, and support the smooth execution of various initiatives. The experience has been incredibly rewarding, helping me grow both personally and professionally while creating memories I\'ll always cherish.',
+    image: Devaansh_Kushwaha,
+    colorScheme: 'cyan'
   }
 ];
 

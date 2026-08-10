@@ -1,11 +1,12 @@
 import React, { useRef, useEffect, useState } from "react";
 import TeamHeroSection from "../components/team/TeamHeroSection";
 import TeamSection from "../components/team/TeamSection";
-import { boe, executives, office_bearers } from "../data/teamData";
+import { boe, executives, office_bearers, faculty_coordinator } from "../data/teamData";
 import { ViewportOptimizedSection } from "../utils/performanceUtils.jsx";
 import { preloadImages, getLoadingStrategy } from "../utils/imageOptimization";
 
 const Team = () => {
+  const facultySection = useRef(null);
   const boeSection = useRef(null);
   const executivesSection = useRef(null);
   const officeBearersSection = useRef(null);
@@ -29,6 +30,13 @@ const Team = () => {
         
         if (!isMounted || !isComponentMounted) return;
         
+        // Preload faculty coordinator images first
+        const facultyImages = faculty_coordinator.map(member => member.image);
+        preloadImages(facultyImages, {
+          priority: true,
+          sizes: '(max-width: 768px) 100vw, 300px',
+          fetchPriority: 'high'
+        });
         // Preload BOE images first (they're shown first now)
         const boeImages = boe.slice(0, 6).map(member => member.image);
         preloadImages(boeImages, {
@@ -79,6 +87,15 @@ const Team = () => {
 
       {/* Team Sections */}
       <div id="team-main-content" className="team-sections-container bg-gradient-to-br from-[#0a0015] via-[#1a0033] to-[#000000]">
+        {/* Faculty Coordinator Section */}
+        <ViewportOptimizedSection fallbackHeight="400px">
+          <TeamSection 
+            ref={facultySection}
+            title="Faculty Coordinator" 
+            items={faculty_coordinator} 
+            className="faculty-coordinator-section-start" 
+          />
+        </ViewportOptimizedSection>
         <ViewportOptimizedSection fallbackHeight="800px">
           <TeamSection 
             ref={boeSection}

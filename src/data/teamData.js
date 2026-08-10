@@ -1,5 +1,15 @@
 import img from "../assets/img/acm_team/img";
 
+export const faculty_coordinator = [
+  {
+    image: img.sachi_choudhary,
+    title: "Mrs. Sachi Choudhary",
+    subtitle: "Faculty Coordinator",
+    linkedin: "sachi-choudhary-ph-d-17430487/",
+    borderColor: "#4F46E5",
+    gradient: "linear-gradient(145deg,#4F46E5,#000)",
+  },
+];
 export const boe = [
   {
     image: img.sangam,
@@ -154,14 +164,6 @@ export const boe = [
 ];
 
 export const executives = [
-  {
-    image: img.sachi_choudhary,
-    title: "Mrs. Sachi Choudhary",
-    subtitle: "Faculty Coordinator",
-    linkedin: "sachi-choudhary-ph-d-17430487/",
-    borderColor: "#4F46E5",
-    gradient: "linear-gradient(145deg,#4F46E5,#000)",
-  },
   {
     image: img.stuti_jain,
     title: "Stuti Jain",
