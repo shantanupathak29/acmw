@@ -2,7 +2,7 @@ const CallToAction = () => {
   return (
     <div className="button-container flex flex-col sm:flex-row gap-4 z-20 items-center justify-center w-full px-4" style={{ fontFamily: 'Figtree, system-ui, -apple-system, sans-serif' }}>
       <a
-        href="https://upesacm.org/prodigy"
+        href="https://upesacm.org/prodigypage"
         target="_blank"
         rel="noopener noreferrer"
         className="nbutton group relative overflow-hidden px-6 md:px-8 py-3 md:py-4 bg-gradient-to-r from-purple-600/20 to-pink-600/20 backdrop-blur-md border border-purple-400/30 rounded-xl text-white font-semibold transition-all duration-700 ease-out hover:scale-105 hover:shadow-2xl hover:shadow-purple-500/25 flex items-center justify-center gap-2 w-full sm:w-auto"
